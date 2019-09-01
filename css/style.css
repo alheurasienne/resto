@@ -1,3 +1,8 @@
+@font-face {
+	font-family: MonotypeCorsiva;
+	src: url(../fonts/fonts/MonotypeCorsiva_Regular.ttf);
+}
+
 body,
 html {
 	font-family: 'Raleway', sans-serif;
@@ -246,7 +251,7 @@ a:focus,
 }
 
 .intro h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: MonotypeCorsiva;
 	color: #fff;
 	font-weight: 700;
 	margin-top: 0;
