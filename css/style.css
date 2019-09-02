@@ -360,7 +360,7 @@ header .intro-text {
 }
 
 #restaurant-menu .section-title {
-	background: #444 url(../img/Fondue.png) center center no-repeat fixed;
+	background: #444 url(../img/portfolio/Fondue.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 
@@ -425,7 +425,7 @@ header .intro-text {
 }
 
 #portfolio .section-title {
-	background: #444 url(../img/nouilles.png) center center no-repeat fixed;
+	background: #444 url(../img/portfolio/nouilles.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
