@@ -42,7 +42,7 @@ h5 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 p.intro {
@@ -386,8 +386,25 @@ header .intro-text {
 	margin: 0 20px 80px;
 }
 
+#restaurant-menu .menu-section-formulas {
+	margin: 0 180px 80px;
+}
+
+#restaurant-menu .menu-section-formulas hr {
+	margin: 0 auto;
+}
+
 #restaurant-menu .menu-section-title {
 	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+
+#restaurant-menu .menu-section-title-little {
+	font-size: 16px;
 	display: block;
 	font-weight: 500;
 	color: #444;
