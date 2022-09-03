@@ -1,398 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A l'Heur' Asienne</title>
+    <meta name="description" content="Traiteur asiatique" />
+    <meta name="author" content="technical@alheurasienne.fr" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>A l'Heur' Asienne</title>
-  <meta name="description" content="Traiteur asiatique">
-  <meta name="author" content="technical@alheurasienne.fr">
-
-  <!-- Favicons
+    <!-- Favicons
     ================================================== -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome/css/font-awesome.css"
+    />
 
-  <!-- Stylesheet
+    <!-- Stylesheet
     ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/nivo-lightbox/nivo-lightbox.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/nivo-lightbox/default.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
+      rel="stylesheet"
+    />
+  </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <!-- Navigation
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation
     ==========================================-->
-  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
-            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" title="Litchi flower" alt="Flower"
-            class="icon"></a>
-      </div>
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top"
+            ><img
+              src="img/logo.png"
+              title="Litchi flower"
+              alt="Flower"
+              class="icon"
+          /></a>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#infos" class="page-scroll">Restaurant</a></li>
-          <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-          <li><a href="#portfolio" class="page-scroll">Gallerie</a></li>
-          <!-- <li><a href="#team" class="page-scroll">Chefs</a></li> -->
-          <li><a href="#map" class="page-scroll">Carte</a></li>
-          <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
-        </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#infos" class="page-scroll">Restaurant</a></li>
+            <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+            <li><a href="#portfolio" class="page-scroll">Gallerie</a></li>
+            <!-- <li><a href="#team" class="page-scroll">Chefs</a></li> -->
+            <li><a href="#map" class="page-scroll">Carte</a></li>
+            <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.navbar-collapse -->
-    </div>
-  </nav>
-  <!-- Header -->
-  <header id="header">
-    <div class="intro">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="intro-text">
-              <h1>A l'heur' Asienne</h1>
-              <p>Restaurant / Traiteur asiatique</p>
-              <a href="#map" class="btn btn-custom btn-lg page-scroll">Nous trouver</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- Infos Section -->
-  <div id="infos">
-    <div class="container text-center">
-      <div class="col-md-4">
-        <h3>Adresse</h3>
-        <div class="contact-item">
-          <p>213 rue de la République</p>
-          <p>31290 Villefranche de lauragais</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h3>Horaires</h3>
-        <div class="contact-item">
-          <p>Lundi au Samedi: 11h30 - 14h00 & 17h30 - 20h00</p>
-          <p>Fermé le Mercredi et Dimanche</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h3>Contact Info</h3>
-        <div class="contact-item">
-          <p><i class="fa fa-phone-square"></i> 06 82 58 77 18</p>
-          <p><i class="fa fa-envelope"></i> contact@alheurasienne.fr</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- About Section -->
-  <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 ">
-          <div class="about-img"><img src="img/devanture.jpg" class="img-responsive" alt=""></div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="about-text">
-            <h2>Le Restaurant</h2>
-            <hr>
-            <p><b>Venez découvrir toutes les saveurs de l'Asie avec nos plats faits maison !</b> </p>
-            <!-- <h3>Nos racines</h3>
-            <p>A l'heur'asienne est un restaurant/traiteur aux spécialités </p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Restaurant Menu Section -->
-  <div id="restaurant-menu">
-    <div class="section-title text-center center">
-      <div class="overlay">
-        <h2>Menu</h2>
-        <hr>
-        <p>Découvrez les saveurs de notre cuisine faite maison</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Nos entrées</h2>
-            <hr>
-            <div class="menu-item">
-              <div class="menu-item-name"> Nems au porc (4 pièces) </div>
-              <div class="menu-item-price"> 5.20€ </div>
-              <!-- <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
-                dapibus leo nec ornare diam. </div> -->
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Nems au poulet (4 pièces) </div>
-              <div class="menu-item-price"> 5.20€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Samoussa (4 pièces) </div>
-              <div class="menu-item-price"> 5.20€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Rouleau de printemps (2 pièces) </div>
-              <div class="menu-item-price"> 5.20€ </div>
-              <div class="menu-item-description"> Poulet ou Crevette </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Raviolis de porc frits (4 pièces) </div>
-              <div class="menu-item-price"> 5.20€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Soupe à la citronelle </div>
-              <div class="menu-item-price"> 5.20€ </div>
-              <div class="menu-item-description"> Poulet </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Nos crêpes de riz vietnamiennes (Banh Cuong) </div>
-              <div class="menu-item-price"> 6.50€ </div>
-              <div class="menu-item-description"> Crêpes au porc haché et champignons noirs avec sa sauce de nem </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Nos plats</h2>
-            <hr>
-            <div class="menu-section-title-little">avec accompagnement au choix (voir section suivante)</div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Porc au caramel</div>
-              <div class="menu-item-price"> 9.50€ </div>
-              <!-- <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
-                dapibus leo nec ornare diam. </div> -->
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Poulet au caramel</div>
-              <div class="menu-item-price"> 9.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Crevettes aigre doux à l'ananas et concombre</div>
-              <div class="menu-item-price"> 9.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Boeuf luc lac </div>
-              <div class="menu-item-price"> 9.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Poulet curry et bambou </div>
-              <div class="menu-item-price"> 9.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Crevettes sautées à l'ail </div>
-              <div class="menu-item-price"> 9.50€ </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Nos plats complets</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Nouilles sautées au porc ou poulet et légumes </div>
-            <div class="menu-item-price"> 9.50€ </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Bo bun au boeuf curry </div>
-            <div class="menu-item-price"> 9.50€ </div>
-            <div class="menu-item-description"> avec nem au porc </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Bo bun au poulet </div>
-            <div class="menu-item-price"> 9.50€ </div>
-            <div class="menu-item-description"> avec nem au poulet </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Buddha Bowl </div>
-            <div class="menu-item-price"> 9.50€ </div>
-            <div class="menu-item-description"> Riz nature, graines de sésame, légumes sautés et omelette émincée
-            </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Vermicelles cheveux d'anges sautées aux légumes, champignons et viande</div>
-            <div class="menu-item-price"> 9.50€ </div>
-            <div class="menu-item-description"> Poulet </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Plats uniquement sur commande</h2>
-          <hr>
-          <div class="menu-section-title-little">Hors menu</div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Phat thaï aux crevettes</div>
-            <div class="menu-item-price"> 11.90€ </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Phat thaï au poulet</div>
-            <div class="menu-item-price"> 11.90€ </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Phat thaï au porc</div>
-            <div class="menu-item-price"> 11.90€ </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Soupe vietnamienne pâtes de riz (Pho)</div>
-            <div class="menu-item-price"> 11.90€ </div>
-            <div class="menu-item-description"> au boeuf ou au poulet </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Nos accompagnements</h2>
-            <hr>
-            <div class="menu-item">
-              <div class="menu-item-name"> Riz nature </div>
-              <div class="menu-item-price"> 3.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Riz cantonais </div>
-              <div class="menu-item-price"> 3.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Nouilles sautées nature </div>
-              <div class="menu-item-price"> 3.50€ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Légumes sautés </div>
-              <div class="menu-item-price"> 3.50€ </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Notre spécialité</h2>
-            <hr>
-            <div class="menu-item">
-              <div class="menu-item-name"> Fondue laotienne pour 2 personnes minimum (sur commande 48h à l'avance)
+    </nav>
+    <!-- Header -->
+    <header id="header">
+      <div class="intro">
+        <div class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="intro-text">
+                <h1>A l'heur' Asienne</h1>
+                <p>Restaurant / Traiteur asiatique</p>
+                <div class="warning-msg">
+                  Ouvre désormais le mercredi midi !
+                </div>
+                <a href="#map" class="btn btn-custom btn-lg page-scroll"
+                  >Nous trouver</a
+                >
               </div>
-              <div class="menu-item-price"> 39.00€ </div>
-              <div class="menu-item-description"> Fondue composée de boeuf, crevettes, oeuf, légumes, vermicelles, sauce
-                pour fondue, bouillon </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Nos boissons</h2>
-            <hr>
-            <div class="menu-item">
-              <div class="menu-item-name"> Coca, Coca zéro, Fanta orange, Schweppes agrumes,
-                Orangina, Thé glaçé saveur pêche, Eau plate, Eau gazeuse</div>
-              <div class="menu-item-price"> 1.50€ </div>
+    </header>
+    <!-- Infos Section -->
+    <div id="infos">
+      <div class="container text-center">
+        <div class="col-md-4">
+          <h3>Adresse</h3>
+          <div class="contact-item">
+            <p>213 rue de la République</p>
+            <p>31290 Villefranche de lauragais</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Horaires</h3>
+          <div class="contact-item">
+            <p>Lundi au Samedi: 11h30 - 14h00 & 17h30 - 20h00</p>
+            <p>Fermé le Mercredi soir et Dimanche</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Contact Info</h3>
+          <div class="contact-item">
+            <p><i class="fa fa-phone-square"></i> 06 82 58 77 18</p>
+            <p><i class="fa fa-envelope"></i> contact@alheurasienne.fr</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="about-img">
+              <img src="img/devanture.jpg" class="img-responsive" alt="" />
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Thé mariage Frères </div>
-              <div class="menu-item-price"> 2.50€ </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2>Le Restaurant</h2>
+              <hr />
+              <p>
+                <b
+                  >Venez découvrir toutes les saveurs de l'Asie avec nos plats
+                  faits maison !</b
+                >
+              </p>
+              <!-- <h3>Nos racines</h3>
+            <p>A l'heur'asienne est un restaurant/traiteur aux spécialités </p> -->
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Kusmi tea BB détox </div>
-              <div class="menu-item-price"> 2.50€ </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Restaurant Menu Section -->
+    <div id="restaurant-menu">
+      <div class="section-title text-center center">
+        <div class="overlay">
+          <h2>Menu</h2>
+          <hr />
+          <p>Découvrez les saveurs de notre cuisine faite maison</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Nos entrées</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">Nems au porc (4 pièces)</div>
+                <div class="menu-item-price">5.20€</div>
+                <!-- <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                dapibus leo nec ornare diam. </div> -->
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Nems au poulet (4 pièces)</div>
+                <div class="menu-item-price">5.20€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Samoussa (4 pièces)</div>
+                <div class="menu-item-price">5.20€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Rouleau de printemps (2 pièces)
+                </div>
+                <div class="menu-item-price">5.20€</div>
+                <div class="menu-item-description">Poulet ou Crevette</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Raviolis de porc frits (4 pièces)
+                </div>
+                <div class="menu-item-price">5.20€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Soupe à la citronelle</div>
+                <div class="menu-item-price">5.20€</div>
+                <div class="menu-item-description">Poulet</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Nos crêpes de riz vietnamiennes (Banh Cuong)
+                </div>
+                <div class="menu-item-price">6.50€</div>
+                <div class="menu-item-description">
+                  Crêpes au porc haché et champignons noirs avec sa sauce de nem
+                </div>
+              </div>
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Café expresso </div>
-              <div class="menu-item-price"> 1.90€ </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Nos plats</h2>
+              <hr />
+              <div class="menu-section-title-little">
+                avec accompagnement au choix (voir section suivante)
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Porc au caramel</div>
+                <div class="menu-item-price">9.50€</div>
+                <!-- <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed
+                dapibus leo nec ornare diam. </div> -->
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Poulet au caramel</div>
+                <div class="menu-item-price">9.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Crevettes aigre doux à l'ananas et concombre
+                </div>
+                <div class="menu-item-price">9.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Boeuf luc lac</div>
+                <div class="menu-item-price">9.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Poulet curry et bambou</div>
+                <div class="menu-item-price">9.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Crevettes sautées à l'ail</div>
+                <div class="menu-item-price">9.50€</div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6">
           <div class="menu-section">
-            <h2 class="menu-section-title">Nos desserts</h2>
-            <hr>
+            <h2 class="menu-section-title">Nos plats complets</h2>
+            <hr />
             <div class="menu-item">
-              <div class="menu-item-name"> Nougats chinois (8 pièces) </div>
-              <div class="menu-item-price"> 2.90€ </div>
-              <div class="menu-item-description"> Ce produit n'est pas fait maison </div>
+              <div class="menu-item-name">
+                Nouilles sautées au porc ou poulet et légumes
+              </div>
+              <div class="menu-item-price">9.50€</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Mochi (2 pièces) </div>
-              <div class="menu-item-price"> 2.90€ </div>
-              <div class="menu-item-description"> Ce produit n'est pas fait maison </div>
+              <div class="menu-item-name">Bo bun au boeuf curry</div>
+              <div class="menu-item-price">9.50€</div>
+              <div class="menu-item-description">avec nem au porc</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Cake chocolat banane </div>
-              <div class="menu-item-price"> 2.90€ </div>
+              <div class="menu-item-name">Bo bun au poulet</div>
+              <div class="menu-item-price">9.50€</div>
+              <div class="menu-item-description">avec nem au poulet</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Moelleux coco chocolat </div>
-              <div class="menu-item-price"> 2.90€ </div>
+              <div class="menu-item-name">Buddha Bowl</div>
+              <div class="menu-item-price">9.50€</div>
+              <div class="menu-item-description">
+                Riz nature, graines de sésame, légumes sautés et omelette
+                émincée
+              </div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Déssert exotique </div>
-              <div class="menu-item-price"> 2.90€ </div>
+              <div class="menu-item-name">
+                Vermicelles cheveux d'anges sautées aux légumes, champignons et
+                viande
+              </div>
+              <div class="menu-item-price">9.50€</div>
+              <div class="menu-item-description">Poulet</div>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12">
-          <div class="menu-section-formulas">
-            <h2 class="menu-section-title">Nos formules</h2>
-            <hr>
+        <div class="col-xs-12 col-sm-6">
+          <div class="menu-section">
+            <h2 class="menu-section-title">Plats uniquement sur commande</h2>
+            <hr />
+            <div class="menu-section-title-little">Hors menu</div>
             <div class="menu-item">
-              <div class="menu-item-name"> Entrée + plat + boisson </div>
-              <div class="menu-item-price"> 11.90€ </div>
-              <!-- <div class="menu-item-description"> Ce produit n'est pas fait maison </div> -->
+              <div class="menu-item-name">Phat thaï aux crevettes</div>
+              <div class="menu-item-price">11.90€</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Plat + dessert + boisson </div>
-              <div class="menu-item-price"> 11.90€ </div>
-              <!-- <div class="menu-item-description"> Ce produit n'est pas fait maison </div> -->
+              <div class="menu-item-name">Phat thaï au poulet</div>
+              <div class="menu-item-price">11.90€</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Entrée + plat + dessert + boisson </div>
-              <div class="menu-item-price"> 13.90€ </div>
-            </div>
-          </div>
-          <div class="menu-section-formulas">
-            <h2 class="menu-section-title-little">Une entrée au choix</h2>
-            <!-- <hr> -->
-            <div class="menu-item">
-              <div class="menu-item-name"> Nems au porc ou au poulet (4 pièces) </div>
+              <div class="menu-item-name">Phat thaï au porc</div>
+              <div class="menu-item-price">11.90€</div>
             </div>
             <div class="menu-item">
-              <div class="menu-item-name"> Rouleaux de printemps (2 pièces) </div>
-              <div class="menu-item-description">Poulet ou Crevette</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Samoussa (4 pièces) </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Raviolis de porc frits (4 pièces) </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Soupe à la citronelle (sauf en été) </div>
-              <div class="menu-item-description">Poulet ou Crevette</div>
+              <div class="menu-item-name">
+                Soupe vietnamienne pâtes de riz (Pho)
+              </div>
+              <div class="menu-item-price">11.90€</div>
+              <div class="menu-item-description">au boeuf ou au poulet</div>
             </div>
           </div>
-          <div class="menu-section-formulas">
-            <h2 class="menu-section-title-little">Un plat au choix parmi</h2>
-            <!-- <hr> -->
-            <div class="menu-item">
-              <div class="menu-item-name"> Plats avec accompagnement </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Nos accompagnements</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">Riz nature</div>
+                <div class="menu-item-price">3.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Riz cantonais</div>
+                <div class="menu-item-price">3.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Nouilles sautées nature</div>
+                <div class="menu-item-price">3.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Légumes sautés</div>
+                <div class="menu-item-price">3.50€</div>
+              </div>
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Plats complets </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Notre spécialité</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Fondue laotienne pour 2 personnes minimum (sur commande 48h à
+                  l'avance)
+                </div>
+                <div class="menu-item-price">39.00€</div>
+                <div class="menu-item-description">
+                  Fondue composée de boeuf, crevettes, oeuf, légumes,
+                  vermicelles, sauce pour fondue, bouillon
+                </div>
+              </div>
             </div>
-            <!-- <div class="menu-item">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Nos boissons</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Coca, Coca zéro, Fanta orange, Schweppes agrumes, Orangina,
+                  Thé glaçé saveur pêche, Eau plate, Eau gazeuse
+                </div>
+                <div class="menu-item-price">1.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Thé mariage Frères</div>
+                <div class="menu-item-price">2.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Kusmi tea BB détox</div>
+                <div class="menu-item-price">2.50€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Café expresso</div>
+                <div class="menu-item-price">1.90€</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Nos desserts</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">Nougats chinois (8 pièces)</div>
+                <div class="menu-item-price">2.90€</div>
+                <div class="menu-item-description">
+                  Ce produit n'est pas fait maison
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Mochi (2 pièces)</div>
+                <div class="menu-item-price">2.90€</div>
+                <div class="menu-item-description">
+                  Ce produit n'est pas fait maison
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Cake chocolat banane</div>
+                <div class="menu-item-price">2.90€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Moelleux coco chocolat</div>
+                <div class="menu-item-price">2.90€</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Déssert exotique</div>
+                <div class="menu-item-price">2.90€</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12">
+            <div class="menu-section-formulas">
+              <h2 class="menu-section-title">Nos formules</h2>
+              <hr />
+              <div class="menu-item">
+                <div class="menu-item-name">Entrée + plat + boisson</div>
+                <div class="menu-item-price">11.90€</div>
+                <!-- <div class="menu-item-description"> Ce produit n'est pas fait maison </div> -->
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Plat + dessert + boisson</div>
+                <div class="menu-item-price">11.90€</div>
+                <!-- <div class="menu-item-description"> Ce produit n'est pas fait maison </div> -->
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Entrée + plat + dessert + boisson
+                </div>
+                <div class="menu-item-price">13.90€</div>
+              </div>
+            </div>
+            <div class="menu-section-formulas">
+              <h2 class="menu-section-title-little">Une entrée au choix</h2>
+              <!-- <hr> -->
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Nems au porc ou au poulet (4 pièces)
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Rouleaux de printemps (2 pièces)
+                </div>
+                <div class="menu-item-description">Poulet ou Crevette</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Samoussa (4 pièces)</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Raviolis de porc frits (4 pièces)
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">
+                  Soupe à la citronelle (sauf en été)
+                </div>
+                <div class="menu-item-description">Poulet ou Crevette</div>
+              </div>
+            </div>
+            <div class="menu-section-formulas">
+              <h2 class="menu-section-title-little">Un plat au choix parmi</h2>
+              <!-- <hr> -->
+              <div class="menu-item">
+                <div class="menu-item-name">Plats avec accompagnement</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Plats complets</div>
+              </div>
+              <!-- <div class="menu-item">
               <div class="menu-item-name"> Bo bun boeuf curry </div>
             </div>
             <div class="menu-item">
@@ -412,141 +497,207 @@
             <div class="menu-item">
               <div class="menu-item-name"> Plat de la semaine </div>
             </div> -->
-          </div>
-          <div class="menu-section-formulas">
-            <h2 class="menu-section-title-little">Un dessert au choix</h2>
-            <div class="menu-item">
-              <div class="menu-item-name"> Nougats chinois (8 pièces) </div>
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Mochi (2 pièces) </div>
+            <div class="menu-section-formulas">
+              <h2 class="menu-section-title-little">Un dessert au choix</h2>
+              <div class="menu-item">
+                <div class="menu-item-name">Nougats chinois (8 pièces)</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Mochi (2 pièces)</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Cake chocolat banane</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Moelleux coco chocolat</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Dessert exotique</div>
+              </div>
             </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Cake chocolat banane </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Moelleux coco chocolat </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name"> Dessert exotique </div>
-            </div>
-          </div>
-          <div class="menu-section-formulas">
-            <h2 class="menu-section-title-little">Une boisson froide au choix</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Section -->
-  <div id="portfolio">
-    <div class="section-title text-center center">
-      <div class="overlay">
-        <h2>Gallerie</h2>
-        <hr>
-        <p>Quelques photos pour vous donner faim !</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="categories">
-          <ul class="cat">
-            <li>
-              <ol class="type">
-                <li><a href="#" data-filter="*" class="active">Tout</a></li>
-                <li><a href="#" data-filter=".firstCourse">Entrées</a></li>
-                <li><a href="#" data-filter=".mainCourse">Plats</a></li>
-                <li><a href="#" data-filter=".desert">Desserts</a></li>
-              </ol>
-            </li>
-          </ul>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="portfolio-items">
-          <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/nouilles.jpg" title="Nouilles sautées"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Nouilles sautées</h4>
-                  </div>
-                  <img src="img/portfolio/nouilles-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/banh-Cuon.jpg" title="Banh Cuong"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Banh Cuong</h4>
-                  </div>
-                  <img src="img/portfolio/banh-Cuon-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 desert">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/nougat.jpg" title="Nougats chinois"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Nougats chinois</h4>
-                  </div>
-                  <img src="img/portfolio/nougat-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 mainCourse">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/Fondue.jpg" title="Fondue laotienne"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Fondue laotienne</h4>
-                  </div>
-                  <img src="img/portfolio/Fondue-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 mainCourse">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/bobun.jpg" title="Bo bun au boeuf curry"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Bo bun au boeuf curry</h4>
-                  </div>
-                  <img src="img/portfolio/bobun-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 desert">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/mochi.jpg" title="Mochi" data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Mochi</h4>
-                  </div>
-                  <img src="img/portfolio/mochi-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/rizCantonais.jpg" title="Riz cantonais"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Riz cantonais</h4>
-                  </div>
-                  <img src="img/portfolio/rizCantonais-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
+            <div class="menu-section-formulas">
+              <h2 class="menu-section-title-little">
+                Une boisson froide au choix
+              </h2>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Team Section -->
-  <!-- <div id="team" class="text-center">
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="section-title text-center center">
+        <div class="overlay">
+          <h2>Gallerie</h2>
+          <hr />
+          <p>Quelques photos pour vous donner faim !</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="categories">
+            <ul class="cat">
+              <li>
+                <ol class="type">
+                  <li><a href="#" data-filter="*" class="active">Tout</a></li>
+                  <li><a href="#" data-filter=".firstCourse">Entrées</a></li>
+                  <li><a href="#" data-filter=".mainCourse">Plats</a></li>
+                  <li><a href="#" data-filter=".desert">Desserts</a></li>
+                </ol>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-items">
+            <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/nouilles.jpg"
+                    title="Nouilles sautées"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Nouilles sautées</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/nouilles-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/banh-Cuon.jpg"
+                    title="Banh Cuong"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Banh Cuong</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/banh-Cuon-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 desert">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/nougat.jpg"
+                    title="Nougats chinois"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Nougats chinois</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/nougat-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 mainCourse">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/Fondue.jpg"
+                    title="Fondue laotienne"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Fondue laotienne</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/Fondue-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 mainCourse">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/bobun.jpg"
+                    title="Bo bun au boeuf curry"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Bo bun au boeuf curry</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/bobun-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 desert">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/mochi.jpg"
+                    title="Mochi"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Mochi</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/mochi-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 firstCourse">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/rizCantonais.jpg"
+                    title="Riz cantonais"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Riz cantonais</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/rizCantonais-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Section -->
+    <!-- <div id="team" class="text-center">
     <div class="overlay">
       <div class="container">
         <div class="col-md-10 col-md-offset-1 section-title">
@@ -586,16 +737,16 @@
       </div>
     </div>
   </div> -->
-  <!-- Maps -->
-  <div id="map"></div>
-  <!-- Call Reservation Section -->
-  <div id="call-reservation" class="text-center">
-    <div class="container">
-      <h2>Une réservation? Appeler le <b>06 82 58 77 18</b></h2>
+    <!-- Maps -->
+    <div id="map"></div>
+    <!-- Call Reservation Section -->
+    <div id="call-reservation" class="text-center">
+      <div class="container">
+        <h2>Une réservation? Appeler le <b>06 82 58 77 18</b></h2>
+      </div>
     </div>
-  </div>
-  <!-- Contact Section -->
-  <!-- <div id="contact" class="text-center">
+    <!-- Contact Section -->
+    <!-- <div id="contact" class="text-center">
     <div class="container">
       <div class="section-title text-center">
         <h2>Contactez-nous !</h2>
@@ -629,134 +780,179 @@
       </div>
     </div>
   </div> -->
-  <!-- Footer -->
-  <div id="footer">
-    <div class="container text-center">
-      <div></div>
-    </div>
-    <div class="container-fluid text-center copyrights">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="social">
-          <ul>
-            <li><a href="https://www.facebook.com/alheurasienne"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://instagram.com/alheurasienne"><i class="fa fa-instagram"></i></a></li>
-          </ul>
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container text-center">
+        <div></div>
+      </div>
+      <div class="container-fluid text-center copyrights">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/alheurasienne"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/alheurasienne"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <p>&copy; 2019 Alheurasienne. Tous droits réservés.</p>
         </div>
-        <p>&copy; 2019 Alheurasienne. Tous droits réservés.</p>
       </div>
     </div>
-  </div>
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- <script type="text/javascript" src="js/SmoothScroll.js"></script> -->
-  <script type="text/javascript" src="js/nivo-lightbox.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/contact_me.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAqOl971JZzr_V5WFIe4sc7Old7KtWNgo"></script>
-  <script type="text/javascript">
-    // When the window has finished loading create our google map below
-    google.maps.event.addDomListener(window, 'load', init);
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="js/SmoothScroll.js"></script> -->
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAqOl971JZzr_V5WFIe4sc7Old7KtWNgo"
+    ></script>
+    <script type="text/javascript">
+      // When the window has finished loading create our google map below
+      google.maps.event.addDomListener(window, "load", init);
 
-    function init() {
-      // Basic options for a simple Google Map
-      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-      var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 16,
+      function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+          // How zoomed in you want the map to start at (always required)
+          zoom: 16,
 
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(43.402378, 1.712315), // New York
+          // The latitude and longitude to center the map (always required)
+          center: new google.maps.LatLng(43.402378, 1.712315), // New York
 
-        // How you would like to style the map. 
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-          "featureType": "water",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#193341"
-          }]
-        }, {
-          "featureType": "landscape",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#2c5a71"
-          }]
-        }, {
-          "featureType": "road",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#29768a"
-          }, {
-            "lightness": -37
-          }]
-        }, {
-          "featureType": "poi",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#406d80"
-          }]
-        }, {
-          "featureType": "transit",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#406d80"
-          }]
-        }, {
-          "elementType": "labels.text.stroke",
-          "stylers": [{
-            "visibility": "on"
-          }, {
-            "color": "#3e606f"
-          }, {
-            "weight": 2
-          }, {
-            "gamma": 0.84
-          }]
-        }, {
-          "elementType": "labels.text.fill",
-          "stylers": [{
-            "color": "#ffffff"
-          }]
-        }, {
-          "featureType": "administrative",
-          "elementType": "geometry",
-          "stylers": [{
-            "weight": 0.6
-          }, {
-            "color": "#1a3541"
-          }]
-        }, {
-          "elementType": "labels.icon",
-          "stylers": [{
-            "visibility": "off"
-          }]
-        }, {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#2c5a71"
-          }]
-        }]
-      };
+          // How you would like to style the map.
+          // This is where you would paste any style found on Snazzy Maps.
+          styles: [
+            {
+              featureType: "water",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#193341",
+                },
+              ],
+            },
+            {
+              featureType: "landscape",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#2c5a71",
+                },
+              ],
+            },
+            {
+              featureType: "road",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#29768a",
+                },
+                {
+                  lightness: -37,
+                },
+              ],
+            },
+            {
+              featureType: "poi",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#406d80",
+                },
+              ],
+            },
+            {
+              featureType: "transit",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#406d80",
+                },
+              ],
+            },
+            {
+              elementType: "labels.text.stroke",
+              stylers: [
+                {
+                  visibility: "on",
+                },
+                {
+                  color: "#3e606f",
+                },
+                {
+                  weight: 2,
+                },
+                {
+                  gamma: 0.84,
+                },
+              ],
+            },
+            {
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#ffffff",
+                },
+              ],
+            },
+            {
+              featureType: "administrative",
+              elementType: "geometry",
+              stylers: [
+                {
+                  weight: 0.6,
+                },
+                {
+                  color: "#1a3541",
+                },
+              ],
+            },
+            {
+              elementType: "labels.icon",
+              stylers: [
+                {
+                  visibility: "off",
+                },
+              ],
+            },
+            {
+              featureType: "poi.park",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#2c5a71",
+                },
+              ],
+            },
+          ],
+        };
 
-      // Get the HTML DOM element that will contain your map 
-      // We are using a div with id="map" seen below in the <body>
-      var mapElement = document.getElementById('map');
+        // Get the HTML DOM element that will contain your map
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById("map");
 
-      // Create the Google Map using our element and options defined above
-      var map = new google.maps.Map(mapElement, mapOptions);
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
 
-      // Let's also add a marker while we're at it
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(43.402378, 1.712315),
-        map: map,
-        title: 'Alheurasienne !'
-      });
-    }
-  </script>
-</body>
-
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(43.402378, 1.712315),
+          map: map,
+          title: "Alheurasienne !",
+        });
+      }
+    </script>
+  </body>
 </html>
